@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Hello from './Hello.js';
 import registerServiceWorker from './registerServiceWorker';
-
-ReactDOM.render(<h1>Hello world</h1>, document.getElementById('root'));
+import 'tachyons';
+ReactDOM.render(<Hello />, document.getElementById('root'));
 registerServiceWorker();
